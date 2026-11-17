@@ -19,5 +19,9 @@ public class TestMain {
         Rev.afisareInformatii();
         System.out.println("Pret: " + Rev.calculPret());
 
+        //Testare Ziar
+        Publicatie Zi = new Ziar("Viata Libera Galati","Radu Macovei", 1989, 15, "speciala", "Galati");
+        Zi.afisareInformatii();
+        System.out.println("Pret: " + Zi.calculPret());
     }
 }
