@@ -14,5 +14,10 @@ public class TestMain {
         enc.afisareInformatii();
         System.out.println("Pret: " + enc.calculPret());
 
+        //Testare Revista
+        Publicatie Rev = new Revista("National Geographic", "John Smith", 2025, 25.5, "Stiinta", "Lunara");
+        Rev.afisareInformatii();
+        System.out.println("Pret: " + Rev.calculPret());
+
     }
 }
