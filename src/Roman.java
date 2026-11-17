@@ -6,12 +6,12 @@ public class Roman extends Publicatie{
         this.genLiterar=genLiterar;
         this.nrPagini=nrPagini;
     }
-@Override
-public void afisareInformatii(){
-    System.out.println("Roman: "+titlu);
-    System.out.println("Autor: "+autor);
-    System.out.println("Gen literar: "+genLiterar);
-    System.out.println("Numar pagini: "+nrPagini);
+    @Override
+    public void afisareInformatii(){
+        System.out.println("Roman: "+titlu);
+        System.out.println("Autor: "+autor);
+        System.out.println("Gen literar: "+genLiterar);
+        System.out.println("Numar pagini: "+nrPagini);
     }
     @Override
     public double calculPret(){
