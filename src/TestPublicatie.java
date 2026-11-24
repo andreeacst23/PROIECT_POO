@@ -42,7 +42,7 @@ public class TestPublicatie {
         System.out.println("Autorul romanului: " + r2.getAutor());
 
         System.out.println("Pretul romanului: " + r2.getPret());
-<<<<<<<HEAD
+
 
         System.out.println("\n===DICTIONARE===");
         Dictionar d1 = new Dictionar();
@@ -93,7 +93,7 @@ public class TestPublicatie {
         System.out.println("\n===== TEST CALCUL PRET =====");
         System.out.println("Pret de baza dictionar: " + d2.getPret() + " -> Pret calculat (* 0.5): " + d2.calculPret());
         System.out.println("Pret de baza enciclopedie: " + e2.getPret() + " -> Pret calculat (* 0.8): " + e2.calculPret());
-=======
+
 //TESTARE REVISTA ZIAR
 
         System.out.println("=== REVISTE ===");
