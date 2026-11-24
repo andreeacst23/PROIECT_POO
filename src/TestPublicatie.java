@@ -35,7 +35,8 @@ public class TestPublicatie {
         r2.afisareInformatii();
         System.out.println("---------");
         r3.afisareInformatii();
-        System.out.println("\n===== TEST GETTERI =====");
+
+        System.out.println("\n====TEST GETTERI====");
 
         System.out.println("Titlul manualului: " + m2.getTitlu());
 
