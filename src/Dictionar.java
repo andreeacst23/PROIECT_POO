@@ -104,6 +104,6 @@ public class Dictionar extends Publicatie {
 
     @Override
     public double calculPret() {
-        return getPret();
+        return getPret() * 0.5;
     }
 }

@@ -104,6 +104,6 @@ public class Enciclopedie extends Publicatie {
 
     @Override
     public double calculPret() {
-        return getPret();
+        return getPret() * 0.8;
     }
 }
